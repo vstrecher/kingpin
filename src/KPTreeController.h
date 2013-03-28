@@ -33,6 +33,7 @@
 - (id)initWithMapView:(MKMapView *)mapView;
 - (void)setAnnotations:(NSArray *)annoations;
 - (void)refresh:(BOOL)animated;
+- (void)refresh:(BOOL)animated force:(BOOL)force;
 
 @end
 
